@@ -47,11 +47,6 @@ void deck::addToDeck(deck D) {
         this->Deck2.push_back(N);
     }
 
-    
-   // std::cout << "Y";
-  //  addExistingCards();
-  //  std::cout << "Z";
-  //  this->printDeck();
 
 }
 int deck::getSize() {
