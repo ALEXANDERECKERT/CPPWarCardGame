@@ -68,22 +68,6 @@ void deck::addExistingCards() {
     }
 }
 
-/*
-void deck::addToDeck(Card* CardA) {
-    this->Deck2.clear();
-    this->Deck2.push_back(CardA);
-    for (int x = ((this->Deck.size())-1); x >= 0; x--) {
-        Card* CardZ = new Card(this->Deck[x]->returnCN(), this->Deck[x]->returnSuit());
-        this->Deck2.push_back(CardZ);
-    }
-    this->Deck.clear();
-    for (int x = 0; x < this->Deck.size(); x++) {
-        Card* CardZ = new Card(this->Deck[x]->returnCN(), this->Deck[x]->returnSuit());
-        this->Deck.push_back(this->Deck2[x]);
-    }
-
-}
-*/
 void deck::shuffle()
 {
     int x = 0;
