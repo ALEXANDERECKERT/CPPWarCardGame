@@ -10,7 +10,7 @@ public:
     void print();
     // return of 0 indicates this card is less than the other, 1 indicates equality, 2 indicates this card is larger
     int CompareThisCardNumAgainst(Card C);
-    // return of 0 indicates Equivalency, 1 indicates equality, 2 indicates non-equivalency
+    // return of 0 indicates less than the other, 1 indicates equality, 2 indicates non-equivalency
     int CompareThisCardSuitAgainst(Card C);
     
     
